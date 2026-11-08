@@ -1,7 +1,7 @@
 const WHATSAPP_NUMBER = "50687843394";
 
 function sendWhatsApp(message) {
-  const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+  const url = `https://web.whatsapp.com/send?phone=${WHATSAPP_NUMBER}&text=${encodeURIComponent(message)}`;
   window.open(url, "_blank");
 }
 
