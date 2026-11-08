@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tijeras de enfermería | NicoMedical</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="img/logo.png" alt="NicoMedical"> NicoMedical
+      </a>
+      <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="uniformes.html">Uniformes</a>
+        <a href="accesorios.html">Accesorios</a>
+        <a href="index.html#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <p class="breadcrumb"><a href="index.html">Inicio</a> / <a href="accesorios.html">Accesorios</a> / Tijeras de enfermería</p>
+    <section class="detail">
+      <div class="detail-image">
+        <img src="img/Tijeras_de_enfermeria.jpeg" alt="Tijeras de enfermería">
+      </div>
+      <div class="detail-copy">
+        <span class="tag">Accesorios</span>
+        <h1>Tijeras de enfermería</h1>
+        <p class="muted">Tijeras para uso en el área de enfermería.</p>
+        <p class="price">₡2.000 <small>por unidad</small></p>
+
+        <label class="field" for="variant">Color</label>
+        <select id="variant" class="field">
+          <option value="Verde" data-stock="1">Verde</option>
+          <option value="Rosa" data-stock="1">Rosa</option>
+        </select>
+        <p id="variant-stock" class="notice">Existencias: 1 unidad</p>
+
+        <label class="field" for="quantity">Cantidad</label>
+        <input class="field" type="number" id="quantity" min="1" max="1" value="1">
+        <button class="btn" id="product-order" data-product="Tijeras de enfermería" data-price="2000">Consultar por WhatsApp</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© NicoMedical. Todos los derechos reservados.</p>
+      <p>Pedidos por WhatsApp: 8784-3394</p>
+    </div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

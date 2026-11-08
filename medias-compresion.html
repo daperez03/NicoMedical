@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medias de compresión | NicoMedical</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="img/logo.png" alt="NicoMedical"> NicoMedical
+      </a>
+      <nav class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="uniformes.html">Uniformes</a>
+        <a href="accesorios.html">Accesorios</a>
+        <a href="index.html#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <p class="breadcrumb"><a href="index.html">Inicio</a> / <a href="accesorios.html">Accesorios</a> / Medias de compresión</p>
+    <section class="detail">
+      <div class="detail-image">
+        <img id="product-image" src="img/Medias_de_compresion__blancas.jpeg" alt="Medias de compresión">
+      </div>
+      <div class="detail-copy">
+        <span class="tag">Accesorios</span>
+        <h1>Medias de compresión</h1>
+        <p class="muted">Medias de compresión disponibles en color blanco y negro.</p>
+        <p class="price">₡2.500 <small>por unidad</small></p>
+
+        <label class="field" for="variant">Color</label>
+        <select id="variant" class="field">
+          <option value="Blancas" data-stock="3" data-image="img/Medias_de_compresion__blancas.jpeg">Blancas</option>
+          <option value="Negras" data-stock="5" data-image="img/Medias_de_compresion_negras.jpeg">Negras</option>
+        </select>
+
+        <p id="variant-stock" class="notice">Existencias: 3 unidades</p>
+        <p class="muted">Talla disponible: S/M.</p>
+
+        <label class="field" for="quantity">Cantidad</label>
+        <input class="field" type="number" id="quantity" min="1" max="3" value="1">
+        <button class="btn" id="product-order" data-product="Medias de compresión" data-price="2500">Consultar por WhatsApp</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© NicoMedical. Todos los derechos reservados.</p>
+      <p>Pedidos por WhatsApp: 8784-3394</p>
+    </div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

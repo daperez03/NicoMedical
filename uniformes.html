@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uniformes | NicoMedical</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container header-inner">
+        <a href="index.html" class="brand">
+            <img src="img/logo.png" alt="NicoMedical">
+            NicoMedical
+        </a>
+
+        <nav class="nav">
+            <a href="index.html">Inicio</a>
+            <a href="uniformes.html">Uniformes</a>
+            <a href="accesorios.html">Accesorios</a>
+            <a href="index.html#contacto">Contacto</a>
+        </nav>
+    </div>
+</header>
+
+
+<main class="container">
+
+    <div class="breadcrumb">
+        <a href="index.html">Inicio</a> / Uniformes
+    </div>
+
+    <section class="section">
+
+        <div class="section-title">
+            <h1>Uniformes médicos</h1>
+            <p>
+                Encuentra tu uniforme ideal.
+                Selecciona el color y consulta las tallas disponibles.
+            </p>
+        </div>
+
+
+        <div class="detail">
+
+            <img
+                id="uniform-image"
+                src="img/Uniforme_dos_piezas_marron.jpeg"
+                alt="Uniforme de dos piezas"
+                class="detail-image"
+            >
+
+            <div class="detail-copy">
+
+                <span class="tag">Uniformes</span>
+
+                <h2>Conjunto de dos piezas</h2>
+
+                <span class="price">₡20.000</span>
+
+                <p class="muted">
+                    Uniforme médico de dos piezas.
+                    Disponible en diferentes colores y tallas.
+                </p>
+
+
+                <div class="field">
+
+                    <label for="uniform-color">
+                        Seleccione el color
+                    </label>
+
+                    <select id="uniform-color">
+
+                        <option value="Marrón|S|1|img/Uniforme_dos_piezas_marron.jpeg">
+                            Marrón
+                        </option>
+
+                        <option value="Verde menta|M|1|img/Uniforme_dos_piezas_verde_menta.jpeg">
+                            Verde menta
+                        </option>
+
+                        <option value="Vino|M|2|img/Uniforme_dos_piezas_color_vino_1.jpeg">
+                            Vino
+                        </option>
+
+                        <option value="Verde|M|1|img/Uniforme_dos_piezas_verde.jpeg">
+                            Verde
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="field">
+
+                    <label for="uniform-size">
+                        Talla disponible
+                    </label>
+
+                    <select id="uniform-size">
+                        <option value="S">S</option>
+                    </select>
+
+                </div>
+
+
+                <p class="notice" id="uniform-stock">
+                    Existencias: 1
+                </p>
+
+
+                <div class="field">
+
+                    <label for="uniform-qty">
+                        Cantidad
+                    </label>
+
+                    <input
+                        type="number"
+                        id="uniform-qty"
+                        min="1"
+                        max="1"
+                        value="1"
+                    >
+
+                </div>
+
+
+                <button
+                    type="button"
+                    class="btn"
+                    id="uniform-order"
+                >
+                    Consultar por WhatsApp
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="footer">
+    <div class="container footer-inner">
+        <p>© 2026 NicoMedical.</p>
+        <p><a href="https://wa.me/50687843394">WhatsApp: 8784-3394</a></p>
+    </div>
+</footer>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
