@@ -25,9 +25,9 @@
 
   <main class="container">
     <p class="breadcrumb"><a href="index.html">Inicio</a> / <a href="accesorios.html">Accesorios</a> / Tijeras de enfermería</p>
-    <section class="detail">
+    <section class="detail" data-inventory-product="tijeras-enfermeria">
       <div class="detail-image">
-        <img src="img/Tijeras_de_enfermeria.jpeg" alt="Tijeras de enfermería">
+        <img id="product-image" src="img/Tijeras_de_enfermeria.jpeg" alt="Tijeras de enfermería">
       </div>
       <div class="detail-copy">
         <span class="tag">Accesorios</span>
@@ -35,16 +35,13 @@
         <p class="muted">Tijeras para uso en el área de enfermería.</p>
         <p class="price">₡2.000 <small>por unidad</small></p>
 
-        <label class="field" for="variant">Color</label>
-        <select id="variant" class="field">
-          <option value="Verde" data-stock="1">Verde</option>
-          <option value="Rosa" data-stock="1">Rosa</option>
-        </select>
-        <p id="variant-stock" class="notice">Existencias: 1 unidad</p>
+        <div id="variant-controls"></div>
+        <p id="variant-stock" class="notice"></p>
 
         <label class="field" for="quantity">Cantidad</label>
         <input class="field" type="number" id="quantity" min="1" max="1" value="1">
         <button class="btn" id="product-order" data-product="Tijeras de enfermería" data-price="2000">Consultar por WhatsApp</button>
+        <p class="notice" id="inventory-status" role="status" hidden></p>
       </div>
     </section>
   </main>

@@ -1,0 +1,129 @@
+{
+  "products": {
+    "uniforme-dos-piezas": {
+      "orderMultiple": 1,
+      "variants": [
+        {
+          "color": "Marrón",
+          "size": "S",
+          "stock": 0,
+          "image": "img/Uniforme_dos_piezas_marron.jpeg"
+        },
+        {
+          "color": "Verde menta",
+          "size": "M",
+          "stock": 1,
+          "image": "img/Uniforme_dos_piezas_verde_menta.jpeg"
+        },
+        {
+          "color": "Vino",
+          "size": "L",
+          "stock": 2,
+          "image": "img/Uniforme_dos_piezas_vino.jpeg"
+        },
+        {
+          "color": "Verde",
+          "size": "M",
+          "stock": 0,
+          "image": "img/Uniforme_dos_piezas_verde.jpeg"
+        },
+        {
+          "color": "Palo rosa",
+          "size": "M",
+          "stock": 1,
+          "image": "img/Uniforme_dos_piezas_palo_rosa.jpeg"
+        },
+        {
+          "color": "Blanco",
+          "size": "M",
+          "stock": 1,
+          "image": "img/Uniforme_dos_piezas_blanco.png"
+        },
+        {
+          "color": "Deep blue",
+          "size": "L",
+          "stock": 1,
+          "image": "img/Uniforme_dos_piezas_deep_blue.jpeg"
+        }
+      ]
+    },
+    "chaqueta-uniforme": {
+      "variants": [
+        {
+          "color": "Negro",
+          "size": "M",
+          "stock": 1,
+          "image": "img/Chaqueta_de_uniforme_manga_larga_negra.jpeg"
+        }
+      ]
+    },
+    "medias-compresion": {
+      "variants": [
+        {
+          "color": "Blancas",
+          "size": "S/M",
+          "stock": 3,
+          "image": "img/Medias_de_compresion__blancas.jpeg"
+        },
+        {
+          "color": "Negras",
+          "size": "S/M",
+          "stock": 5,
+          "image": "img/Medias_de_compresion_negras.jpeg"
+        }
+      ]
+    },
+    "tijeras-enfermeria": {
+      "variants": [
+        {
+          "color": "Verde",
+          "stock": 1
+        },
+        {
+          "color": "Rosa",
+          "stock": 0
+        }
+      ]
+    },
+    "pines-enfermeria": {
+      "variants": [
+        {
+          "color": "Variados",
+          "stock": 3
+        }
+      ]
+    },
+    "pines-crocs": {
+      "orderMultiple": 4,
+      "variants": [
+        {
+          "color": "Diseños variados",
+          "stock": 42
+        }
+      ]
+    },
+    "prensas-cabello": {
+      "variants": [
+        {
+          "color": "Multicolor",
+          "stock": 1,
+          "image": "img/Presas_de_cabello_multicolor.jpeg"
+        },
+        {
+          "color": "Rosa",
+          "stock": 1,
+          "image": "img/Presas_de_cabello_rosa.jpeg"
+        }
+      ]
+    },
+    "scrunchies-satin": {
+      "orderMultiple": 4,
+      "variants": [
+        {
+          "color": "Colores variados",
+          "stock": 22
+        }
+      ]
+    }
+  }
+}

@@ -25,7 +25,7 @@
 
   <main class="container">
     <p class="breadcrumb"><a href="index.html">Inicio</a> / <a href="accesorios.html">Accesorios</a> / Scrunchies de satín</p>
-    <section class="detail">
+    <section class="detail" data-inventory-product="scrunchies-satin">
       <div class="detail-image">
         <img src="img/Scrunchies_de_satin.jpeg" alt="Scrunchies de satín">
       </div>
@@ -34,11 +34,13 @@
         <h1>Scrunchies de satín</h1>
         <p class="muted">Colección de scrunchies en distintos colores.</p>
         <p class="price">₡1.000 <small>por cada 4 unidades</small></p>
-        <p class="notice">Disponibilidad total: 27 unidades. El precio indicado corresponde a grupos de 4 unidades.</p>
+        <div id="variant-controls"></div>
+        <p id="variant-stock" class="notice"></p>
 
         <label class="field" for="quantity">Cantidad de grupos de 4</label>
         <input class="field" type="number" id="quantity" min="1" max="6" value="1">
         <button class="btn" id="product-order" data-product="Scrunchies de satín (grupos de 4)" data-price="1000">Consultar por WhatsApp</button>
+        <p class="notice" id="inventory-status" role="status" hidden></p>
       </div>
     </section>
   </main>

@@ -125,8 +125,8 @@ h3 {
 }
 
 .brand img {
-    max-width: 140px;
-    max-height: 54px;
+    width: 140px;
+    height: 54px;
     object-fit: contain;
 }
 
@@ -171,9 +171,10 @@ h3 {
 
 .hero-image {
     width: 100%;
-    max-height: 420px;
+    aspect-ratio: 4 / 3;
     border-radius: var(--radius);
-    object-fit: cover;
+    background: var(--surface);
+    object-fit: contain;
 }
 
 /* Botones */
@@ -198,6 +199,13 @@ h3 {
     border-color: var(--purple);
     color: var(--white);
     transform: translateY(-2px);
+}
+
+.btn:disabled {
+    border-color: var(--muted);
+    background: var(--muted);
+    cursor: not-allowed;
+    transform: none;
 }
 
 .btn-outline {
@@ -231,7 +239,7 @@ h3 {
 .card img {
     width: 100%;
     aspect-ratio: 4 / 3;
-    object-fit: cover;
+    object-fit: contain;
     background: #eee5e9;
 }
 
@@ -277,9 +285,16 @@ h3 {
 
 .detail-image {
     width: 100%;
-    max-height: 600px;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
     border-radius: var(--radius);
-    object-fit: cover;
+    background: #eee5e9;
+}
+
+.detail-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .detail-copy {

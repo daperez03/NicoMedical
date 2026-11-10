@@ -25,20 +25,22 @@
 
   <main class="container">
     <p class="breadcrumb"><a href="index.html">Inicio</a> / <a href="accesorios.html">Accesorios</a> / Prensas de cabello</p>
-    <section class="detail">
+    <section class="detail" data-inventory-product="prensas-cabello">
       <div class="detail-image">
-        <img src="img/Presas_de_cabello_1.jpeg" alt="Set de prensas de cabello">
+        <img id="product-image" src="img/Presas_de_cabello_1.jpeg" alt="Set de prensas de cabello">
       </div>
       <div class="detail-copy">
         <span class="tag">Accesorios</span>
         <h1>Set de prensas de cabello</h1>
         <p class="muted">Set de prensas en colores variados.</p>
         <p class="price">₡2.000 <small>por set</small></p>
-        <p class="notice">Existencias: 2 sets.</p>
+        <div id="variant-controls"></div>
+        <p id="variant-stock" class="notice"></p>
 
         <label class="field" for="quantity">Cantidad de sets</label>
         <input class="field" type="number" id="quantity" min="1" max="2" value="1">
         <button class="btn" id="product-order" data-product="Set de prensas de cabello" data-price="2000">Consultar por WhatsApp</button>
+        <p class="notice" id="inventory-status" role="status" hidden></p>
       </div>
     </section>
   </main>
